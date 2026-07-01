@@ -85,6 +85,26 @@ class Program
                 break;
         }
         */
-            
+        
+        /*
+        //6-Temperature Converter
+        Console.WriteLine("Enter a temperature in Celsius: ");
+        double celsius = double.Parse(Console.ReadLine());
+        double fahrenheit = (celsius * 9 / 5) + 32;
+        Console.WriteLine("Fahrenheit temperature is: " + fahrenheit);
+        
+        if (celsius < 10)
+        {
+            Console.WriteLine("Weather Classification is Cold");
+        }
+        else if (celsius >= 10 && celsius <= 30)
+        {
+            Console.WriteLine("Weather Classification is Mild");
+        }
+        else if (celsius >= 30)
+        {
+            Console.WriteLine("Weather Classification is Hot");
+        }
+        */
     }
 }
