@@ -15,6 +15,15 @@ class Program
         //////////////////////////////////////
         */
         
-        
+        /*
+        //2-Rectangle Calculator
+        Console.WriteLine("Enter the length: ");
+        double length = double.Parse(Console.ReadLine());
+        Console.WriteLine("Enter the width: ");
+        double width = double.Parse(Console.ReadLine());
+        double area = (length * width);
+        double perimeter = 2*(length + width);
+        Console.WriteLine("The area is: " + area + " ,The perimeter is: " + perimeter);
+        */
     }
 }
