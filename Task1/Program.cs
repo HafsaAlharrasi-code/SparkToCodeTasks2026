@@ -106,5 +106,24 @@ class Program
             Console.WriteLine("Weather Classification is Hot");
         }
         */
+        
+        /*
+        //7- Movie Ticket Pricing
+        Console.WriteLine("Please enter your age: ");
+        int age = int.Parse(Console.ReadLine());
+        
+        if (age > 0 && age <= 12)
+        {
+            Console.WriteLine("Children, Ticket price is 2.000 OMR");
+        }
+        else if (age >= 13 && age <= 59)
+        {
+            Console.WriteLine("Adults, Ticket price is 5.000 OMR");
+        }
+        else if (age > 59)
+        {
+            Console.WriteLine("Seniors, Ticket price is 3.000 OMR");
+        }
+        */
     }
 }
