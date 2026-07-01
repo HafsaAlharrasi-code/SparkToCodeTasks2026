@@ -185,6 +185,53 @@ class Program
         }
         */
         
+        /*
+        //10-Mini Calculator
+        Console.WriteLine("Enter the first number: ");
+        double firstNumber = double.Parse(Console.ReadLine());
+        Console.WriteLine("Enter the second number: ");
+        double secondNumber = double.Parse(Console.ReadLine());
+        Console.WriteLine("Enter operator character (+, -, *, /, or %): ");
+        char operatorCharacter = char.Parse(Console.ReadLine());
+
+        switch (operatorCharacter)
+        {
+            case '+':
+                Console.WriteLine("Addition result: " + (firstNumber + secondNumber) );
+                break;
+            case '-':
+                Console.WriteLine("Subtraction result: " + (firstNumber - secondNumber));
+                break;
+            case '*':
+                Console.WriteLine("Multiplication result: " + (firstNumber * secondNumber));
+                break;
+            case '/':
+                if ( secondNumber == 0)
+                {
+                    Console.WriteLine("Cannot divide by zero");
+                }
+                else
+                {
+                    Console.WriteLine("Division result: " + (firstNumber / secondNumber));
+                }
+                break;
+            case '%':
+                if ( secondNumber == 0)
+                {
+                    Console.WriteLine("Cannot modulus by zero");
+                }
+                else
+                {
+                    Console.WriteLine("modulus result: " + (firstNumber % secondNumber));
+                }
+                break;
+            default:
+                Console.WriteLine("Invalid operator");
+                break;
+                
+        }
+        */
+        
 
     }
 }
