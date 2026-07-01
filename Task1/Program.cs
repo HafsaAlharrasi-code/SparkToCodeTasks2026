@@ -232,6 +232,39 @@ class Program
         }
         */
         
+        /*
+        //11-Loan Eligibility System
+        Console.WriteLine("Please enter your age: ");
+        int age = int.Parse(Console.ReadLine());
+        Console.WriteLine("Please enter your monthly income: ");
+        double monthlyIncome = double.Parse(Console.ReadLine());
+        Console.WriteLine("Do you have an existing loan (yes/no):");
+        string loan = Console.ReadLine();
+        bool hasLoan = loan == "yes";
+
+        if (( age >= 21 && age <= 60) && (monthlyIncome >= 400) && !(hasLoan))
+        {
+            Console.WriteLine("You can have a loan");
+        }
+        else
+        {
+            if (hasLoan)
+            {
+                Console.WriteLine("You can NOT have a loan; you have an existing loan. ");
+            }
+            else if (monthlyIncome < 400)
+            {
+                Console.WriteLine("You can NOT have a loan; your income is too low. ");
+            }
+            else if (age < 21 || age > 60)
+            {
+                Console.WriteLine("You can NOT have a loan; your age is out of range. ");
+            }
+        }
+        */
+        
+        
+        
 
     }
 }
