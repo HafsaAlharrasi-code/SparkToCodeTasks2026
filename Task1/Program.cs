@@ -59,5 +59,33 @@ class Program
             Console.WriteLine("Your are not eligible to vote.");
         }
         */
+        
+        /*
+        //5-Grade Letter Lookup
+        Console.WriteLine("Enter your grade ('A', 'B', 'C', 'D', or 'F'):");
+        string grade = Console.ReadLine();
+        switch (grade) 
+        {
+            case "A":
+                Console.WriteLine("Excellent");
+                break;
+            case "B":
+                Console.WriteLine("Very Good");
+                break;
+            case "C":
+                Console.WriteLine("Good");
+                break;
+            case "D":   
+                Console.WriteLine("Pass");
+                break;
+            case "F":
+                Console.WriteLine("Fail");
+                break;
+            default:
+                Console.WriteLine("Invalid grade");
+                break;
+        }
+        */
+            
+        }
     }
-}
