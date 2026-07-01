@@ -125,5 +125,32 @@ class Program
             Console.WriteLine("Seniors, Ticket price is 3.000 OMR");
         }
         */
+        
+        /*
+        //8-Restaurant Bill with Membership Discount
+        Console.WriteLine("Please enter your total bill amount: ");
+        double billAmount = double.Parse(Console.ReadLine());
+        Console.WriteLine("Are you a loyalty member (yes/no).");
+        string loyalMember = Console.ReadLine();
+        bool isLoyaltyMember = loyalMember == "yes";
+
+        double discountAmount = ( 0.15 * billAmount );
+        double finalAmountToPay = (billAmount - discountAmount);
+        
+        if (billAmount > 20 && isLoyaltyMember)
+        {
+            Console.WriteLine("The original bill is: " + billAmount);
+            Console.WriteLine("The discount amount is: " + discountAmount);
+            Console.WriteLine("The final amount to pay is: " + finalAmountToPay);
+        }
+        else
+        {
+            Console.WriteLine("The original bill is: " + billAmount);
+            Console.WriteLine("No discount");
+            Console.WriteLine("The final amount to pay is: " + billAmount);
+        }
+        */
+        
+
     }
 }
