@@ -25,5 +25,22 @@ class Program
         double perimeter = 2*(length + width);
         Console.WriteLine("The area is: " + area + " ,The perimeter is: " + perimeter);
         */
+        
+        /*
+        //3-Even or Odd Checker
+        Console.WriteLine("Please enter a number: ");
+        double number = double.Parse(Console.ReadLine());
+        double modResult = (number % 2);
+
+        if (modResult == 0)
+        {
+            Console.WriteLine("The number is even");
+        }
+        else
+        {
+            Console.WriteLine("The number is odd");
+        }
+        */
+
     }
 }
