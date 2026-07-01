@@ -85,6 +85,153 @@ class Program
                 break;
         }
         */
-            
+        
+        /*
+        //6-Temperature Converter
+        Console.WriteLine("Enter a temperature in Celsius: ");
+        double celsius = double.Parse(Console.ReadLine());
+        double fahrenheit = (celsius * 9 / 5) + 32;
+        Console.WriteLine("Fahrenheit temperature is: " + fahrenheit);
+        
+        if (celsius < 10)
+        {
+            Console.WriteLine("Weather Classification is Cold");
+        }
+        else if (celsius >= 10 && celsius <= 30)
+        {
+            Console.WriteLine("Weather Classification is Mild");
+        }
+        else if (celsius >= 30)
+        {
+            Console.WriteLine("Weather Classification is Hot");
+        }
+        */
+        
+        /*
+        //7- Movie Ticket Pricing
+        Console.WriteLine("Please enter your age: ");
+        int age = int.Parse(Console.ReadLine());
+        
+        if (age > 0 && age <= 12)
+        {
+            Console.WriteLine("Children, Ticket price is 2.000 OMR");
+        }
+        else if (age >= 13 && age <= 59)
+        {
+            Console.WriteLine("Adults, Ticket price is 5.000 OMR");
+        }
+        else if (age > 59)
+        {
+            Console.WriteLine("Seniors, Ticket price is 3.000 OMR");
+        }
+        */
+        
+        /*
+        //8-Restaurant Bill with Membership Discount
+        Console.WriteLine("Please enter your total bill amount: ");
+        double billAmount = double.Parse(Console.ReadLine());
+        Console.WriteLine("Are you a loyalty member (yes/no).");
+        string loyalMember = Console.ReadLine();
+        bool isLoyaltyMember = loyalMember == "yes";
+
+        double discountAmount = ( 0.15 * billAmount );
+        double finalAmountToPay = (billAmount - discountAmount);
+        
+        if (billAmount > 20 && isLoyaltyMember)
+        {
+            Console.WriteLine("The original bill is: " + billAmount);
+            Console.WriteLine("The discount amount is: " + discountAmount);
+            Console.WriteLine("The final amount to pay is: " + finalAmountToPay);
+        }
+        else
+        {
+            Console.WriteLine("The original bill is: " + billAmount);
+            Console.WriteLine("No discount");
+            Console.WriteLine("The final amount to pay is: " + billAmount);
+        }
+        */
+        
+        /*
+        //9-Day Name Finder
+        Console.WriteLine("Enter a number from 1 to 7");
+        int number = int.Parse(Console.ReadLine());
+
+        switch (number)
+        {
+            case 1:
+                Console.WriteLine("Sunday");
+                break;
+            case 2:
+                Console.WriteLine("Monday");
+                break;
+            case 3:
+                Console.WriteLine("Tuesday");
+                break;
+            case 4:
+                Console.WriteLine("Wednesday");
+                break;
+            case 5:
+                Console.WriteLine("Thursday");
+                break;
+            case 6:
+                Console.WriteLine("Friday");
+                break;
+            case 7:
+                Console.WriteLine("Saturday");
+                break;
+            default:
+                Console.WriteLine("Invalid day number");
+                break;
+        }
+        */
+        
+        /*
+        //10-Mini Calculator
+        Console.WriteLine("Enter the first number: ");
+        double firstNumber = double.Parse(Console.ReadLine());
+        Console.WriteLine("Enter the second number: ");
+        double secondNumber = double.Parse(Console.ReadLine());
+        Console.WriteLine("Enter operator character (+, -, *, /, or %): ");
+        char operatorCharacter = char.Parse(Console.ReadLine());
+
+        switch (operatorCharacter)
+        {
+            case '+':
+                Console.WriteLine("Addition result: " + (firstNumber + secondNumber) );
+                break;
+            case '-':
+                Console.WriteLine("Subtraction result: " + (firstNumber - secondNumber));
+                break;
+            case '*':
+                Console.WriteLine("Multiplication result: " + (firstNumber * secondNumber));
+                break;
+            case '/':
+                if ( secondNumber == 0)
+                {
+                    Console.WriteLine("Cannot divide by zero");
+                }
+                else
+                {
+                    Console.WriteLine("Division result: " + (firstNumber / secondNumber));
+                }
+                break;
+            case '%':
+                if ( secondNumber == 0)
+                {
+                    Console.WriteLine("Cannot modulus by zero");
+                }
+                else
+                {
+                    Console.WriteLine("modulus result: " + (firstNumber % secondNumber));
+                }
+                break;
+            default:
+                Console.WriteLine("Invalid operator");
+                break;
+                
+        }
+        */
+        
+
     }
 }
