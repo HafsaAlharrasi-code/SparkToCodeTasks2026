@@ -101,6 +101,7 @@ class Program
         }
         */
         
+        /*
         //7-Repeating Menu with Exit Option
         bool keepRunning = true;
         while (keepRunning)
@@ -110,7 +111,7 @@ class Program
             Console.WriteLine("2) Show Current Time-of-day Greeting");
             Console.WriteLine("3) Exit");
             Console.Write("Enter your choice: ");
-            
+
             try
             {
                 int choice = int.Parse(Console.ReadLine());
@@ -124,7 +125,7 @@ class Program
                         break;
                     case 3:
                         Console.WriteLine("Exiting the program");
-                        keepRunning = false; 
+                        keepRunning = false;
                         break;
                     default:
                         Console.WriteLine("Please enter a number between 1 and 3.");
@@ -140,6 +141,19 @@ class Program
                 Console.WriteLine("Error: " +ex.Message);
             }
         }
+        */
         
+        //8- Sum of Even Numbers Only
+        Console.WriteLine("Enter a positive whole number: ");
+        int number = int.Parse(Console.ReadLine());
+        int sum = 0;
+        for (int i = 1; i <= number; i++)
+        {
+            if (i % 2 == 0)
+            {
+                sum += i;
+            }
+        }
+        Console.WriteLine("The sum of positive numbers between 1 and " + number + " is: "+sum);
     }
 }
