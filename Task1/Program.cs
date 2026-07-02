@@ -27,6 +27,7 @@ class Program
         Console.WriteLine("The sum is: "+sum);
         */
         
+        /*
         //3-Multiplication Table
         Console.WriteLine("Please enter a number: ");
         int userNumber = int.Parse(Console.ReadLine());
@@ -34,5 +35,18 @@ class Program
         {
             Console.WriteLine(userNumber + "*" + i + "=" + (userNumber * i) );
         }      
+        */
+        
+        //4-Password Retry
+        Console.WriteLine(" Enter the password: ");
+        string password = Console.ReadLine();
+        string correctPassword = "Spark2026";
+
+        while (correctPassword != password)
+        {
+            Console.WriteLine("Wrong password, try again:");
+            password = Console.ReadLine();
+        }
+        Console.WriteLine("Access Granted");
     }
 }
