@@ -143,6 +143,7 @@ class Program
         }
         */
         
+        /*
         //8- Sum of Even Numbers Only
         Console.WriteLine("Enter a positive whole number: ");
         int number = int.Parse(Console.ReadLine());
@@ -155,5 +156,40 @@ class Program
             }
         }
         Console.WriteLine("The sum of positive numbers between 1 and " + number + " is: "+sum);
+        */
+        
+        /*
+        //9-Validated Positive Number Input
+        int num = 0;
+        bool isValidInput = false;
+        
+        do
+        {
+            Console.Write("Enter a positive whole number: ");
+            try
+            {
+                num = int.Parse(Console.ReadLine());
+                if (num <= 0)
+                {
+                    Console.WriteLine("Error: The number must be greater than zero");
+                }
+                else
+                {
+                    isValidInput = true; 
+                }
+            }
+            catch (FormatException)
+            {
+                Console.WriteLine("Error: Invalid format.");
+            }
+        } while (!isValidInput); 
+
+        int sum = 0;
+        for (int i = 1; i <= num; i++)
+        {
+            sum += i;
+        }
+        Console.WriteLine("The sum of all numbers from 1 to " +num+ " is:" + sum);
+        */
     }
 }
