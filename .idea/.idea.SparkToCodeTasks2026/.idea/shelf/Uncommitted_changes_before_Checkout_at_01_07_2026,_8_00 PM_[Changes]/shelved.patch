@@ -1,0 +1,100 @@
+Index: Task1/Program.cs
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>namespace Task1;\n\nclass Program\n{\n    static void Main(string[] args)\n    {\n        \n        /*\n        //1-personal info card\n        string userName = \"Hafsa\";\n        int age = 21;\n        double gpa = 3.11;\n        bool student = true;\n        Console.WriteLine(\"Name: \" + userName + \" ,Age: \"+ age +\" ,GPA: \"+gpa + \" ,Student: \"+student);\n        //////////////////////////////////////\n        */\n        \n        /*\n        //2-Rectangle Calculator\n        Console.WriteLine(\"Enter the length: \");\n        double length = double.Parse(Console.ReadLine());\n        Console.WriteLine(\"Enter the width: \");\n        double width = double.Parse(Console.ReadLine());\n        double area = (length * width);\n        double perimeter = 2*(length + width);\n        Console.WriteLine(\"The area is: \" + area + \" ,The perimeter is: \" + perimeter);\n        */\n        \n        /*\n        //3-Even or Odd Checker\n        Console.WriteLine(\"Please enter a number: \");\n        double number = double.Parse(Console.ReadLine());\n        double modResult = (number % 2);\n\n        if (modResult == 0)\n        {\n            Console.WriteLine(\"The number is even\");\n        }\n        else\n        {\n            Console.WriteLine(\"The number is odd\");\n        }\n        */\n        \n        /*\n        //4-Voting Eligibility\n        Console.WriteLine(\"Enter your age: \");\n        int age = int.Parse(Console.ReadLine());\n        Console.WriteLine(\"Do you hold a valid national ID? (yes/no)\");\n        string nationalID = Console.ReadLine();\n        bool hasNationalID = nationalID == \"yes\";\n\n        if (age >= 18 && hasNationalID )\n        {\n            Console.WriteLine(\"Your are eligible to vote.\");\n        }\n        else\n        {\n            Console.WriteLine(\"Your are not eligible to vote.\");\n        }\n        */\n        \n        /*\n        //5-Grade Letter Lookup\n        Console.WriteLine(\"Enter your grade ('A', 'B', 'C', 'D', or 'F'):\");\n        string grade = Console.ReadLine();\n        switch (grade) \n        {\n            case \"A\":\n                Console.WriteLine(\"Excellent\");\n                break;\n            case \"B\":\n                Console.WriteLine(\"Very Good\");\n                break;\n            case \"C\":\n                Console.WriteLine(\"Good\");\n                break;\n            case \"D\":   \n                Console.WriteLine(\"Pass\");\n                break;\n            case \"F\":\n                Console.WriteLine(\"Fail\");\n                break;\n            default:\n                Console.WriteLine(\"Invalid grade\");\n                break;\n        }\n        */\n            \n        }\n    }\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Task1/Program.cs b/Task1/Program.cs
+--- a/Task1/Program.cs	(revision 352b682097d9554d4eb21383339b690d1a937356)
++++ b/Task1/Program.cs	(date 1782921628970)
+@@ -4,88 +4,6 @@
+ {
+     static void Main(string[] args)
+     {
+-        
+-        /*
+-        //1-personal info card
+-        string userName = "Hafsa";
+-        int age = 21;
+-        double gpa = 3.11;
+-        bool student = true;
+-        Console.WriteLine("Name: " + userName + " ,Age: "+ age +" ,GPA: "+gpa + " ,Student: "+student);
+-        //////////////////////////////////////
+-        */
+-        
+-        /*
+-        //2-Rectangle Calculator
+-        Console.WriteLine("Enter the length: ");
+-        double length = double.Parse(Console.ReadLine());
+-        Console.WriteLine("Enter the width: ");
+-        double width = double.Parse(Console.ReadLine());
+-        double area = (length * width);
+-        double perimeter = 2*(length + width);
+-        Console.WriteLine("The area is: " + area + " ,The perimeter is: " + perimeter);
+-        */
+-        
+-        /*
+-        //3-Even or Odd Checker
+-        Console.WriteLine("Please enter a number: ");
+-        double number = double.Parse(Console.ReadLine());
+-        double modResult = (number % 2);
+-
+-        if (modResult == 0)
+-        {
+-            Console.WriteLine("The number is even");
+-        }
+-        else
+-        {
+-            Console.WriteLine("The number is odd");
+-        }
+-        */
+-        
+-        /*
+-        //4-Voting Eligibility
+-        Console.WriteLine("Enter your age: ");
+-        int age = int.Parse(Console.ReadLine());
+-        Console.WriteLine("Do you hold a valid national ID? (yes/no)");
+-        string nationalID = Console.ReadLine();
+-        bool hasNationalID = nationalID == "yes";
+-
+-        if (age >= 18 && hasNationalID )
+-        {
+-            Console.WriteLine("Your are eligible to vote.");
+-        }
+-        else
+-        {
+-            Console.WriteLine("Your are not eligible to vote.");
+-        }
+-        */
+-        
+-        /*
+-        //5-Grade Letter Lookup
+-        Console.WriteLine("Enter your grade ('A', 'B', 'C', 'D', or 'F'):");
+-        string grade = Console.ReadLine();
+-        switch (grade) 
+-        {
+-            case "A":
+-                Console.WriteLine("Excellent");
+-                break;
+-            case "B":
+-                Console.WriteLine("Very Good");
+-                break;
+-            case "C":
+-                Console.WriteLine("Good");
+-                break;
+-            case "D":   
+-                Console.WriteLine("Pass");
+-                break;
+-            case "F":
+-                Console.WriteLine("Fail");
+-                break;
+-            default:
+-                Console.WriteLine("Invalid grade");
+-                break;
+-        }
+-        */
+-            
++       Console.WriteLine("Hello World!");
+         }
+     }
