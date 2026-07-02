@@ -15,6 +15,7 @@ class Program
         Console.WriteLine("Liftoff");
         */
         
+        /*
         //2-Sum of Numbers 1 to N
         Console.WriteLine("Enter a positive whole number N: ");
         int n = int.Parse(Console.ReadLine());
@@ -24,5 +25,14 @@ class Program
             sum += i;
         }
         Console.WriteLine("The sum is: "+sum);
+        */
+        
+        //3-Multiplication Table
+        Console.WriteLine("Please enter a number: ");
+        int userNumber = int.Parse(Console.ReadLine());
+        for (int i = 1; i <= 10 ; i++)
+        {
+            Console.WriteLine(userNumber + "*" + i + "=" + (userNumber * i) );
+        }      
     }
 }
