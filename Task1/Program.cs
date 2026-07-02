@@ -37,6 +37,7 @@ class Program
         }      
         */
         
+        /*
         //4-Password Retry
         Console.WriteLine(" Enter the password: ");
         string password = Console.ReadLine();
@@ -48,5 +49,34 @@ class Program
             password = Console.ReadLine();
         }
         Console.WriteLine("Access Granted");
+        
+        */
+        
+        /*
+        //5-Number Guessing Game
+        int secretNumber = 42;
+        int attempts = 0;
+        int guessedNumber;
+        
+        do
+        {
+            Console.WriteLine("Guess the number:");
+            guessedNumber = int.Parse(Console.ReadLine());
+            if (guessedNumber > secretNumber)
+            {
+                Console.WriteLine("Too high");
+            }
+            else if (guessedNumber < secretNumber)
+            {
+                Console.WriteLine("Too low");
+            }
+            else
+            {
+                Console.WriteLine("Correct");
+            }
+            attempts++;
+        } 
+        while (guessedNumber != secretNumber);
+        */
     }
 }
