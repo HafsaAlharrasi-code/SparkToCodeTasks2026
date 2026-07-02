@@ -79,6 +79,7 @@ class Program
         while (guessedNumber != secretNumber);
         */
         
+        /*
         //6-Safe Division Calculator
         try
         {
@@ -97,6 +98,47 @@ class Program
         catch (FormatException)
         {
             Console.WriteLine("Error: invalid input");
+        }
+        */
+        
+        //7-Repeating Menu with Exit Option
+        bool keepRunning = true;
+        while (keepRunning)
+        {
+            Console.WriteLine("MENU: ");
+            Console.WriteLine("1) Say Hello");
+            Console.WriteLine("2) Show Current Time-of-day Greeting");
+            Console.WriteLine("3) Exit");
+            Console.Write("Enter your choice: ");
+            
+            try
+            {
+                int choice = int.Parse(Console.ReadLine());
+                switch (choice)
+                {
+                    case 1:
+                        Console.WriteLine("Hello");
+                        break;
+                    case 2:
+                        Console.WriteLine("Have a good day");
+                        break;
+                    case 3:
+                        Console.WriteLine("Exiting the program");
+                        keepRunning = false; 
+                        break;
+                    default:
+                        Console.WriteLine("Please enter a number between 1 and 3.");
+                        break;
+                }
+            }
+            catch (FormatException)
+            {
+                Console.WriteLine("Error: Please enter a valid whole number");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Error: " +ex.Message);
+            }
         }
         
     }
