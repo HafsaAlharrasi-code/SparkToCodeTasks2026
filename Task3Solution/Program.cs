@@ -102,6 +102,7 @@ class Program
         }
         */
         
+        /*
         //8-Membership Expiry Checker
         Console.WriteLine("Enter your membership start date(YYYY-MM-DD): )");
         DateTime startDate = DateTime.Parse(Console.ReadLine());
@@ -120,6 +121,19 @@ class Program
         {
             Console.WriteLine("Your membership is Active");
         }
+        */
+        
+        //9-Round Up / Round Down Explorer
+        Console.WriteLine("Enter a decimal number: ");
+        double number = double.Parse(Console.ReadLine());
+
+        double roundedToNearest = Math.Round(number);
+        double roundedUp = Math.Ceiling(number);
+        double roundedDown = Math.Floor(number);
+        
+        Console.WriteLine("rounded to NEAREST result: " + roundedToNearest);
+        Console.WriteLine("rounded to UP result: " + roundedUp);
+        Console.WriteLine("rounded to DOWN result: " + roundedDown);
         
     }
 }
