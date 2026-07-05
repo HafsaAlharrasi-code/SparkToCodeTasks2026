@@ -49,6 +49,7 @@ class Program
         Console.WriteLine("The End Date is " + endDate.ToString("dd/MM/yyyy"));
         */
         
+        /*
         //5-Grade Rounding System
         Console.WriteLine("Enter your raw exam score:");
         double examScore = double.Parse(Console.ReadLine());
@@ -63,5 +64,21 @@ class Program
         {
             Console.WriteLine("Fail");
         }
+        */
+        
+        //6-Password Strength Checker
+        Console.WriteLine("Enter a password: ");
+        string password = Console.ReadLine();
+        int passwordLength = password.Length;
+
+        if ( (passwordLength >= 8) && !( password.ToLower().Contains("password") ) )
+        {
+            Console.WriteLine("The password is Strong");
+        }
+        else
+        {
+            Console.WriteLine("The password is Weak");
+        }
+        
     }
 }
