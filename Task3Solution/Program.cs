@@ -17,6 +17,7 @@ class Program
         Console.WriteLine("The subtraction result is: "+absResult);
         */
         
+        /*
         //2- Power & Root Explorer
         Console.WriteLine("Please enter a number:");
         double number = double.Parse(Console.ReadLine());
@@ -24,7 +25,18 @@ class Program
         double powerOfTwo = Math.Pow(number, 2);
         Console.WriteLine("The square root of " + number + " is " + sqrtOfNumber);
         Console.WriteLine("The square of " + number + " is " + powerOfTwo);
+        */
         
+        //3- Name Formatter
+        Console.WriteLine("Enter your full name: ");
+        string fullName = Console.ReadLine();
+        string upperFullName = fullName.ToUpper();
+        string lowerFullName = fullName.ToLower();
+        int numberOfChars = fullName.Length;
+        
+        Console.WriteLine("Name in UpperCase: "+upperFullName);
+        Console.WriteLine("Name in LowerCase: "+lowerFullName);
+        Console.WriteLine("The full name contain " + numberOfChars + " characters");
         
     }
 }
