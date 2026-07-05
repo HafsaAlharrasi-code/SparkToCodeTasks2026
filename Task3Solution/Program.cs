@@ -123,6 +123,7 @@ class Program
         }
         */
         
+        /*
         //9-Round Up / Round Down Explorer
         Console.WriteLine("Enter a decimal number: ");
         double number = double.Parse(Console.ReadLine());
@@ -134,6 +135,25 @@ class Program
         Console.WriteLine("rounded to NEAREST result: " + roundedToNearest);
         Console.WriteLine("rounded to UP result: " + roundedUp);
         Console.WriteLine("rounded to DOWN result: " + roundedDown);
+        */
         
+        //10- Word Position Finder
+        Console.WriteLine("Enter a full sentence: ");
+        string sentence = Console.ReadLine();
+        Console.WriteLine("Enter a single word to search for: ");
+        string searchWord = Console.ReadLine();
+        
+        int wordFirstIndex = sentence.IndexOf(searchWord);
+        int wordLastIndex = sentence.LastIndexOf(searchWord);
+
+        if (wordFirstIndex == -1)
+        {
+            Console.WriteLine("The search word is NOT found");
+        }
+        else
+        {
+            Console.WriteLine("The first-occurrence position at: " + wordFirstIndex);
+            Console.WriteLine("The last-occurrence position at: " + wordLastIndex);
+        }
     }
 }
