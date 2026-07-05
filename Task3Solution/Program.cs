@@ -137,6 +137,7 @@ class Program
         Console.WriteLine("rounded to DOWN result: " + roundedDown);
         */
         
+        /*
         //10- Word Position Finder
         Console.WriteLine("Enter a full sentence: ");
         string sentence = Console.ReadLine();
@@ -155,5 +156,6 @@ class Program
             Console.WriteLine("The first-occurrence position at: " + wordFirstIndex);
             Console.WriteLine("The last-occurrence position at: " + wordLastIndex);
         }
+        */
     }
 }
