@@ -4,7 +4,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        
+        /*
         //1- Absolute Difference
         
         Console.WriteLine("Enter a number: ");
@@ -15,6 +15,16 @@ class Program
         double result = number1 - number2;
         double absResult = Math.Abs(result);
         Console.WriteLine("The subtraction result is: "+absResult);
+        */
+        
+        //2- Power & Root Explorer
+        Console.WriteLine("Please enter a number:");
+        double number = double.Parse(Console.ReadLine());
+        double sqrtOfNumber = Math.Sqrt(number);
+        double powerOfTwo = Math.Pow(number, 2);
+        Console.WriteLine("The square root of " + number + " is " + sqrtOfNumber);
+        Console.WriteLine("The square of " + number + " is " + powerOfTwo);
+        
         
     }
 }
