@@ -40,12 +40,28 @@ class Program
         Console.WriteLine("The full name contain " + numberOfChars + " characters");
         */
         
+        /*
         //4- Subscription End Date
         Console.WriteLine("Please enter the number of days of a free trial: ");
         int freeTrailDays = int.Parse(Console.ReadLine());
         DateTime startDate = DateTime.Today;
         DateTime endDate = startDate.AddDays(freeTrailDays);
         Console.WriteLine("The End Date is " + endDate.ToString("dd/MM/yyyy"));
+        */
         
+        //5-Grade Rounding System
+        Console.WriteLine("Enter your raw exam score:");
+        double examScore = double.Parse(Console.ReadLine());
+        double roundedExamScore = Math.Round(examScore);
+        Console.WriteLine("Your rounder exam score is: " + roundedExamScore);
+        
+        if (roundedExamScore >= 60)
+        {
+            Console.WriteLine("Pass");
+        }
+        else
+        {
+            Console.WriteLine("Fail");
+        }
     }
 }
