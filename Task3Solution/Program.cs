@@ -27,6 +27,7 @@ class Program
         Console.WriteLine("The square of " + number + " is " + powerOfTwo);
         */
         
+        /*
         //3- Name Formatter
         Console.WriteLine("Enter your full name: ");
         string fullName = Console.ReadLine();
@@ -37,6 +38,14 @@ class Program
         Console.WriteLine("Name in UpperCase: "+upperFullName);
         Console.WriteLine("Name in LowerCase: "+lowerFullName);
         Console.WriteLine("The full name contain " + numberOfChars + " characters");
+        */
+        
+        //4- Subscription End Date
+        Console.WriteLine("Please enter the number of days of a free trial: ");
+        int freeTrailDays = int.Parse(Console.ReadLine());
+        DateTime startDate = DateTime.Today;
+        DateTime endDate = startDate.AddDays(freeTrailDays);
+        Console.WriteLine("The End Date is " + endDate.ToString("dd/MM/yyyy"));
         
     }
 }
