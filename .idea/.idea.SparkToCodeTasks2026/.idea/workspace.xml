@@ -15,10 +15,7 @@
     <configurations />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d34ba5d8-763f-4d55-8595-4274d762cf04" name="Changes" comment="Task2 only">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SparkToCodeTasks2026/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SparkToCodeTasks2026/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SparkToCodeTasks2026.sln" beforeDir="false" afterPath="$PROJECT_DIR$/SparkToCodeTasks2026.sln" afterDir="false" />
-    </list>
+    <list default="true" id="d34ba5d8-763f-4d55-8595-4274d762cf04" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,61 +56,61 @@
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0006712907437225" />
-      <entry key="S2" value="1.364199405904581" />
-      <entry key="S5" value="2.6466912877628985" />
-      <entry key="S10" value="3.835097774241067" />
-      <entry key="S30" value="5.127081207799356" />
-      <entry key="S60" value="5.582255713810774" />
-      <entry key="M2" value="6.591640558579991" />
-      <entry key="M5" value="12.77482090659091" />
-      <entry key="M10" value="22.011045659327653" />
-      <entry key="M15" value="29.748993915172253" />
-      <entry key="M30" value="56.89931718096287" />
-      <entry key="H1" value="118.34424000598652" />
-      <entry key="H2" value="204.03870521125646" />
-      <entry key="H4" value="281.27351238254903" />
-      <entry key="D1" value="376.4165213280719" />
-      <entry key="W1" value="396.5228813079819" />
+      <entry key="MS100" value="2.2585936881756762E-8" />
+      <entry key="MS500" value="0.029564301460174868" />
+      <entry key="S2" value="0.4146597729072209" />
+      <entry key="S5" value="0.7031965999565596" />
+      <entry key="S10" value="0.8385681844768567" />
+      <entry key="S30" value="0.944690256995489" />
+      <entry key="S60" value="1.126159473034443" />
+      <entry key="M2" value="2.8249356212648844" />
+      <entry key="M5" value="13.087566431565373" />
+      <entry key="M10" value="31.76555224707452" />
+      <entry key="M15" value="51.30868247776407" />
+      <entry key="M30" value="111.24432767877175" />
+      <entry key="H1" value="213.16861937744807" />
+      <entry key="H2" value="352.51015648187376" />
+      <entry key="H4" value="492.80125495484674" />
+      <entry key="D1" value="689.2020164407629" />
+      <entry key="W1" value="734.113059055615" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="0.0" />
-      <entry key="S2" value="6.3665650099991265E-118" />
-      <entry key="S5" value="1.3230067843148865E-47" />
-      <entry key="S10" value="3.637316051196998E-24" />
-      <entry key="S30" value="1.5409790311795676E-8" />
-      <entry key="S60" value="1.295643043106525E-4" />
-      <entry key="M2" value="0.013492410315862827" />
-      <entry key="M5" value="0.25480590085282817" />
-      <entry key="M10" value="0.7839581197185944" />
-      <entry key="M15" value="1.4800825697610518" />
-      <entry key="M30" value="4.857108931219017" />
-      <entry key="H1" value="12.36736520750754" />
-      <entry key="H2" value="22.09018851143756" />
-      <entry key="H4" value="30.480322920109245" />
-      <entry key="D1" value="40.54022964659908" />
-      <entry key="W1" value="42.63804916369602" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.0" />
+      <entry key="S10" value="1.0" />
+      <entry key="S30" value="1.0" />
+      <entry key="S60" value="1.0000000002678202" />
+      <entry key="M2" value="1.0000425151346641" />
+      <entry key="M5" value="1.0616224311451767" />
+      <entry key="M10" value="1.7922313028326418" />
+      <entry key="M15" value="3.031697873624863" />
+      <entry key="M30" value="7.223400041125045" />
+      <entry key="H1" value="15.180074211744941" />
+      <entry key="H2" value="27.566347410663507" />
+      <entry key="H4" value="40.81331940859439" />
+      <entry key="D1" value="59.83982100683395" />
+      <entry key="W1" value="64.22839465765605" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9726549474122855" />
-      <entry key="MS500" value="0.99513630224941" />
-      <entry key="S2" value="1.362091334039546" />
-      <entry key="S5" value="2.6443813957158424" />
-      <entry key="S10" value="3.8330886563277153" />
-      <entry key="S30" value="5.12605709482661" />
-      <entry key="S60" value="5.581140391481951" />
-      <entry key="M2" value="6.596681128631932" />
-      <entry key="M5" value="12.996334678267296" />
-      <entry key="M10" value="22.755200538027385" />
-      <entry key="M15" value="31.19159607547445" />
-      <entry key="M30" value="61.72373128651129" />
-      <entry key="H1" value="130.68257998190555" />
-      <entry key="H2" value="226.1061970922042" />
-      <entry key="H4" value="311.7389059287474" />
-      <entry key="D1" value="416.953539081105" />
-      <entry key="W1" value="439.1604499446336" />
+      <entry key="MS100" value="4.9233505811897366E-5" />
+      <entry key="MS500" value="0.1375473473613719" />
+      <entry key="S2" value="0.6210592704649758" />
+      <entry key="S5" value="0.9909089640163885" />
+      <entry key="S10" value="1.3189109567680408" />
+      <entry key="S30" value="1.714072704179578" />
+      <entry key="S60" value="2.0016923413496763" />
+      <entry key="M2" value="3.7586364436279553" />
+      <entry key="M5" value="14.11414027881461" />
+      <entry key="M10" value="33.529220755899125" />
+      <entry key="M15" value="54.31139425303506" />
+      <entry key="M30" value="118.43549433589439" />
+      <entry key="H1" value="228.31555866463128" />
+      <entry key="H2" value="380.0475523305354" />
+      <entry key="H4" value="533.5937545454045" />
+      <entry key="D1" value="749.0368828485779" />
+      <entry key="W1" value="798.3406974416761" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -125,30 +122,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    ".NET Project.Task1.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.readMode.enableVisualFormatting": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "cidr.known.project.marker": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "Task3",
-    "junie.onboarding.icon.badge.shown": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET Project.Task1.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Project.Task1">
     <configuration name="Task1" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
@@ -246,6 +243,27 @@
       <option name="RUNTIME_ARGUMENTS" value="" />
       <option name="AUTO_ATTACH_CHILDREN" value="0" />
       <option name="PROJECT_PATH" value="$PROJECT_DIR$/Task3Solution/Task3Solution.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="Task4Solution" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="ENV_FILE_PATHS" value="" />
+      <option name="REDIRECT_INPUT_PATH" value="" />
+      <option name="MIXED_MODE_DEBUG" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="AUTO_ATTACH_CHILDREN" value="0" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Task4Solution/Task4Solution.csproj" />
       <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
       <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
       <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
@@ -416,10 +434,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="add project files" />
-    <MESSAGE value="comment for problem1" />
-    <MESSAGE value="add project task2 files" />
-    <MESSAGE value="problem1 implementation" />
     <MESSAGE value="Rectangle Calculator Problem Implementation" />
     <MESSAGE value="Even or Odd Checker implementation" />
     <MESSAGE value="Voting Eligibility Problem Implementation" />
@@ -432,7 +446,20 @@
     <MESSAGE value="Day Name Finder Problem Implementation" />
     <MESSAGE value="Mini Calculator Problem Implementation" />
     <MESSAGE value="Loan Eligibility System Problem implementation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Loan Eligibility System Problem implementation" />
+    <MESSAGE value="Task3 starting" />
+    <MESSAGE value="add task3 files" />
+    <MESSAGE value="(Absolute Difference) Implementation" />
+    <MESSAGE value="(Power &amp; Root Explorer) Implementation" />
+    <MESSAGE value="(Name Formatter) Implementation" />
+    <MESSAGE value="(Subscription End Date) Implementation" />
+    <MESSAGE value="(Grade Rounding System) Implementation" />
+    <MESSAGE value="(Password Strength Checker) Implementation" />
+    <MESSAGE value="(Clean Name Comparator) Implementation" />
+    <MESSAGE value="(Membership Expiry Checker) Implementation" />
+    <MESSAGE value="(Round Up/Round Down Explorer) Implementation" />
+    <MESSAGE value="(Word Position Finder) Implementation" />
+    <MESSAGE value="The easy,medium and hard levels are DONE" />
+    <option name="LAST_COMMIT_MESSAGE" value="The easy,medium and hard levels are DONE" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
