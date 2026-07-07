@@ -52,6 +52,7 @@ class Program
         }
         */
         
+        /*
         //6-Rectangle Area & Perimeter Functions
         Console.WriteLine("Enter the length: ");
         double length = double.Parse(Console.ReadLine());
@@ -62,7 +63,15 @@ class Program
         Console.WriteLine("The area is: " + area);
         Console.WriteLine("The perimeter is: " + perimeter);
         Console.WriteLine();
+        */
         
+        //7-Grade Letter Function
+        Console.WriteLine("Enter your score (0-100): ");
+        int score = int.Parse(Console.ReadLine());
+        string grade = GetGradeLetter(score);
+        Console.WriteLine("Your grade is: " + grade);
+        Console.WriteLine();
+
     }
     
     /*
@@ -106,6 +115,7 @@ class Program
     }
     */
     
+    /*
     static double CalculateArea(double length, double width)
     {
         return length * width;
@@ -114,6 +124,30 @@ class Program
     static double CalculatePerimeter(double length, double width)
     {
         return 2 * (length + width);
+    }
+    */
+    static string GetGradeLetter(int score)
+    {
+        if (score >= 90)
+        {
+            return "A";
+        }
+        else if (score >= 80)
+        {
+            return "B";
+        }
+        else if (score >= 70)
+        {
+            return "C";
+        }
+        else if (score >= 60)
+        {
+            return "D";
+        }
+        else
+        {
+            return "F";
+        }
     }
     
     
