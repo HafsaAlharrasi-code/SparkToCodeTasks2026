@@ -4,6 +4,16 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+       
+        //1- Personalized Welcome Function
+        static void PrintWelcome(string userName)
+        {
+            Console.WriteLine("Welcome, " + userName);
+        }
+        
+        Console.WriteLine("Enter your name:");
+        string name = Console.ReadLine();
+        PrintWelcome(name);
+        Console.WriteLine();
     }
 }
