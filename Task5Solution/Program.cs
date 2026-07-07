@@ -50,6 +50,7 @@ class Program
         Console.WriteLine("You pressed back and landed on:" + backPage);
         */
         
+        /*
         //4-Customer Service Queue
         Queue<string> customers =  new Queue<string>();
         for (int i = 0; i < 3; i++)
@@ -60,5 +61,29 @@ class Program
         }
         string servedCustomer = customers.Dequeue();
         Console.WriteLine("Served the customer: "+servedCustomer);
+        */
+        
+        //5-Array Grade Range
+        int[] grades = new int[5];
+        for (int i = 0; i < 5; i++)
+        {
+            Console.WriteLine("Enter a grade: ");
+            grades[i] = int.Parse(Console.ReadLine());
+        }
+        Array.Sort(grades);
+        int lowestGrade = grades[0];
+        int highestGrade = grades[grades.Length - 1];
+
+        int sum = 0;
+        foreach (int grade in grades)
+        {
+            sum += grade;
+        }
+        double averageGrade = sum / grades.Length;
+        
+        Console.WriteLine("The lowest grade is: " + lowestGrade);
+        Console.WriteLine("The highest grade is: " + highestGrade);
+        Console.WriteLine("The average grade is: " + averageGrade);
+
     }
 }
