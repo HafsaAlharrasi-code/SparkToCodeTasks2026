@@ -82,10 +82,41 @@ class Program
         Console.WriteLine();
         */
         
+        /*
         //9-Overloaded Multiply Function
         Console.WriteLine("Multiply int * int (4*20): " + Multiply(4, 20));
         Console.WriteLine("Multiply double * double (5.5*12.6): " + Multiply(5.5, 12.6));
         Console.WriteLine("Multiply int * int * int (5*7*9): " + Multiply(5, 7, 9));
+        Console.WriteLine();
+        */
+        
+        //10-Overloaded Area Calculator
+        Console.WriteLine("Choose the number of the shape: ");
+        Console.WriteLine("1)Square");
+        Console.WriteLine("2)Rectangle");
+        int userChoise = int.Parse(Console.ReadLine());
+
+        if (userChoise == 1)
+        {
+            Console.WriteLine("Enter the side: ");
+            double side = double.Parse(Console.ReadLine());
+            double squareArea = CalculateArea(side);
+            Console.WriteLine("The area of the square is: " + squareArea);
+
+        }
+        else if (userChoise == 2)
+        {
+            Console.WriteLine("Enter the length: ");
+            double length = double.Parse(Console.ReadLine());
+            Console.WriteLine("Enter the width: ");
+            double width = double.Parse(Console.ReadLine());
+            double rectangleArea = CalculateArea(length, width);
+            Console.WriteLine("The area of the rectangle is: " + rectangleArea);
+        }
+        else
+        {
+            Console.WriteLine("Invalid choise");
+        }
         Console.WriteLine();
 
     }
@@ -179,6 +210,7 @@ class Program
     }
     */
     
+    /*
     static int Multiply(int num1, int num2)
     {
         return num1 * num2;
@@ -193,9 +225,16 @@ class Program
     {
         return num1 * num2 * num3;
     }
+    */
     
-    
-    
+    static double CalculateArea(double side)
+    {
+        return side * side;
+    }
+    static double CalculateArea(double length, double width)
+    {
+        return length * width;
+    }
     
     
     
