@@ -74,10 +74,18 @@ class Program
         Console.WriteLine();
         */
         
+        /*
         //8-Countdown Function
         Console.WriteLine("Enter a starting number: ");
         int startNum = int.Parse(Console.ReadLine());
         Countdown(startNum);
+        Console.WriteLine();
+        */
+        
+        //9-Overloaded Multiply Function
+        Console.WriteLine("Multiply int * int (4*20): " + Multiply(4, 20));
+        Console.WriteLine("Multiply double * double (5.5*12.6): " + Multiply(5.5, 12.6));
+        Console.WriteLine("Multiply int * int * int (5*7*9): " + Multiply(5, 7, 9));
         Console.WriteLine();
 
     }
@@ -161,6 +169,7 @@ class Program
     }
     */
     
+    /*
     static void Countdown(int start)
     {
         for (int i = start; i >= 1; i--)
@@ -168,6 +177,24 @@ class Program
             Console.WriteLine(i);
         }
     }
+    */
+    
+    static int Multiply(int num1, int num2)
+    {
+        return num1 * num2;
+    }
+
+    static double Multiply(double num1, double num2)
+    {
+        return num1 * num2;
+    }
+
+    static int Multiply(int num1, int num2, int num3)
+    {
+        return num1 * num2 * num3;
+    }
+    
+    
     
     
     
