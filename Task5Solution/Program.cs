@@ -19,6 +19,7 @@ class Program
         }
         */
         
+        /*
         //2-Dynamic To-Do List
         List<string> toDo = new List<string>();
         for (int i = 0; i < 5; i++)
@@ -34,5 +35,17 @@ class Program
             Console.WriteLine(task);
         }
         Console.WriteLine();
+        */
+        
+        //3-Browsing History Stack
+        Stack<string> history = new Stack<string>();
+        for (int i = 0; i < 3; i++)
+        {
+            Console.WriteLine("Enter website URL: ");
+            string websiteURL = Console.ReadLine();
+            history.Push(websiteURL);
+        }
+        string backPage = history.Pop();
+        Console.WriteLine("You pressed back and landed on:" + backPage);
     }
 }
