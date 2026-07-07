@@ -139,6 +139,7 @@ class Program
         Console.WriteLine("The third place score is: " + thirdScore);
         */
         
+        /*
         //8-Undo Last Action
         Stack<string> actions = new Stack<string>();
         while (true)
@@ -161,6 +162,49 @@ class Program
         {
             Console.WriteLine(action);
         }
+        */
         
+        /*
+        //9-Grade Analyzer with Functions
+        Console.WriteLine("How many grades you want to enter?");
+        int numberOfGrades = int.Parse(Console.ReadLine());
+        List<int> gradesList = new List<int>();
+
+        for (int i = 0; i < numberOfGrades; i++)
+        {
+            Console.WriteLine("Ener grade: ");
+            gradesList.Add(int.Parse(Console.ReadLine()));
+        }
+        double averageGrade = CalculateAverage(gradesList);
+        int failing = FindFirstFailing(gradesList);
+        Console.WriteLine("The average is:  " + averageGrade);
+
+        if (failing == 0)
+        {
+            Console.WriteLine("No failing grade found");
+        }
+        else
+        {
+            Console.WriteLine("First failing grade: " + failing);
+        }
+        */
+
+    }
+
+    static double CalculateAverage(List<int> numbers)
+    {
+        double sum = 0;
+        foreach (int num in numbers)
+        {
+            sum += num;
+        }
+        double average = sum / numbers.Count;
+        return average;
+        
+    }
+
+    static int FindFirstFailing(List<int> gradesList)
+    {
+        return gradesList.Find(grade => grade < 60);
     }
 }
