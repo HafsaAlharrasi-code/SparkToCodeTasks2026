@@ -87,6 +87,7 @@ class Program
         Console.WriteLine("The average grade is: " + averageGrade);
         */
         
+        /*
         //6-Filtered Shopping List
         List<string> shoppingList = new List<string>();
         
@@ -117,6 +118,25 @@ class Program
         {
             Console.WriteLine(shoppingItem);
         }
+        */
+        
+        //7-High Score Podium
+        List<int> scores = new List<int>();
+        for (int i = 1; i <= 5; i++)
+        {
+            Console.WriteLine("Enter game score: ");
+            int score = int.Parse(Console.ReadLine());
+            scores.Add(score);
+        }
+        scores.Sort();
+        scores.Reverse();
+        int firstScore = scores[0];
+        int secondScore = scores[1];
+        int thirdScore = scores[2];
+        Console.WriteLine("The first place score is: "+ firstScore);
+        Console.WriteLine("The second place score is: " + secondScore);
+        Console.WriteLine("The third place score is: " + thirdScore);
+        
         
     }
 }
