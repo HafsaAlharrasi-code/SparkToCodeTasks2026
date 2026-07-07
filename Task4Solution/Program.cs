@@ -36,6 +36,7 @@ class Program
         Console.WriteLine();
         */
         
+        /*
         //5-Even or Odd Function
         Console.WriteLine("Enter an ineger: ");
         int number = int.Parse(Console.ReadLine());
@@ -49,6 +50,19 @@ class Program
         {
             Console.WriteLine("The number is odd");
         }
+        */
+        
+        //6-Rectangle Area & Perimeter Functions
+        Console.WriteLine("Enter the length: ");
+        double length = double.Parse(Console.ReadLine());
+        Console.WriteLine("Enter the width: ");
+        double width = double.Parse(Console.ReadLine());
+        double area = CalculateArea(length, width);
+        double perimeter = CalculatePerimeter(length, width);
+        Console.WriteLine("The area is: " + area);
+        Console.WriteLine("The perimeter is: " + perimeter);
+        Console.WriteLine();
+        
     }
     
     /*
@@ -85,10 +99,24 @@ class Program
     }
     */
 
+    /*
     static bool IsEven(int number)
     {
         return number % 2 == 0;
     }
+    */
+    
+    static double CalculateArea(double length, double width)
+    {
+        return length * width;
+    }
+
+    static double CalculatePerimeter(double length, double width)
+    {
+        return 2 * (length + width);
+    }
+    
+    
     
     
 }
