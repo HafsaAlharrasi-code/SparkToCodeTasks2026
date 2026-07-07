@@ -191,6 +191,7 @@ class Program
 
     }
 
+    /*
     static double CalculateAverage(List<int> numbers)
     {
         double sum = 0;
@@ -207,4 +208,5 @@ class Program
     {
         return gradesList.Find(grade => grade < 60);
     }
+    */
 }
