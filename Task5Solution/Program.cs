@@ -120,6 +120,7 @@ class Program
         }
         */
         
+        /*
         //7-High Score Podium
         List<int> scores = new List<int>();
         for (int i = 1; i <= 5; i++)
@@ -136,7 +137,30 @@ class Program
         Console.WriteLine("The first place score is: "+ firstScore);
         Console.WriteLine("The second place score is: " + secondScore);
         Console.WriteLine("The third place score is: " + thirdScore);
+        */
         
+        //8-Undo Last Action
+        Stack<string> actions = new Stack<string>();
+        while (true)
+        {
+            Console.Write("Enter an action or stop to finish: ");
+            string input = Console.ReadLine();
+            if (input.ToLower() == "stop")
+            {
+                break;
+            }
+            else
+            {
+                actions.Push(input);
+            }
+        }
+        Console.WriteLine("Undo 1: " + actions.Pop());
+        Console.WriteLine("Undo 2: " + actions.Pop());
+        Console.WriteLine("Remaining actions:");
+        foreach (string action in actions)
+        {
+            Console.WriteLine(action);
+        }
         
     }
 }
