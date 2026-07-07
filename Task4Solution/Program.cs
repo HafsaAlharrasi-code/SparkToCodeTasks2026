@@ -21,11 +21,17 @@ class Program
         Console.WriteLine();
         */
         
+        /*
         //3-Celsius to Fahrenheit Function
         Console.Write("Enter temperature in Celsius: ");
         double celsius = double.Parse(Console.ReadLine());
         double fahrenheit = CelsiusToFahrenheit(celsius);
         Console.WriteLine("Fahrenheit temperature is: " + fahrenheit);
+        Console.WriteLine();
+        */
+        
+        //4-Fixed Menu Display Function
+        DisplayMenu();
         Console.WriteLine();
     }
     
@@ -44,12 +50,23 @@ class Program
         return (number * number);
     }
     */
-
+    
+    /*
     static double CelsiusToFahrenheit(double celsius)
     {
         double fahrenheit = (celsius * 9) / 5 + 32; 
         return fahrenheit;
     }
+    */
+    
+    static void DisplayMenu()
+    {
+        Console.WriteLine("Menu:");
+        Console.WriteLine("1) Start");
+        Console.WriteLine("2) Help");
+        Console.WriteLine("3) Exit");
+    }
+    
     
     
 }
