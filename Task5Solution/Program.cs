@@ -37,6 +37,7 @@ class Program
         Console.WriteLine();
         */
         
+        /*
         //3-Browsing History Stack
         Stack<string> history = new Stack<string>();
         for (int i = 0; i < 3; i++)
@@ -47,5 +48,17 @@ class Program
         }
         string backPage = history.Pop();
         Console.WriteLine("You pressed back and landed on:" + backPage);
+        */
+        
+        //4-Customer Service Queue
+        Queue<string> customers =  new Queue<string>();
+        for (int i = 0; i < 3; i++)
+        {
+            Console.WriteLine("Enter customer name:");
+            string customerName = Console.ReadLine();
+            customers.Enqueue(customerName);
+        }
+        string servedCustomer = customers.Dequeue();
+        Console.WriteLine("Served the customer: "+servedCustomer);
     }
 }
