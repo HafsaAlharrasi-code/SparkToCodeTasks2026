@@ -65,11 +65,19 @@ class Program
         Console.WriteLine();
         */
         
+        /*
         //7-Grade Letter Function
         Console.WriteLine("Enter your score (0-100): ");
         int score = int.Parse(Console.ReadLine());
         string grade = GetGradeLetter(score);
         Console.WriteLine("Your grade is: " + grade);
+        Console.WriteLine();
+        */
+        
+        //8-Countdown Function
+        Console.WriteLine("Enter a starting number: ");
+        int startNum = int.Parse(Console.ReadLine());
+        Countdown(startNum);
         Console.WriteLine();
 
     }
@@ -126,6 +134,8 @@ class Program
         return 2 * (length + width);
     }
     */
+    
+    /*
     static string GetGradeLetter(int score)
     {
         if (score >= 90)
@@ -147,6 +157,15 @@ class Program
         else
         {
             return "F";
+        }
+    }
+    */
+    
+    static void Countdown(int start)
+    {
+        for (int i = start; i >= 1; i--)
+        {
+            Console.WriteLine(i);
         }
     }
     
