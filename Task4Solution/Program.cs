@@ -5,15 +5,17 @@ class Program
     static void Main(string[] args)
     {
        
-        //1- Personalized Welcome Function
-        static void PrintWelcome(string userName)
-        {
-            Console.WriteLine("Welcome, " + userName);
-        }
-        
+        //1-Personalized Welcome Function
         Console.WriteLine("Enter your name:");
         string name = Console.ReadLine();
         PrintWelcome(name);
         Console.WriteLine();
+        
     }
+    //1-Personalized Welcome Function
+    static void PrintWelcome(string userName)
+    {
+        Console.WriteLine("Welcome, " + userName);
+    }
+    
 }
