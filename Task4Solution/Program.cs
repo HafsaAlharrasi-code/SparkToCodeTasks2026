@@ -90,6 +90,7 @@ class Program
         Console.WriteLine();
         */
         
+        /*
         //10-Overloaded Area Calculator
         Console.WriteLine("Choose the number of the shape: ");
         Console.WriteLine("1)Square");
@@ -118,7 +119,7 @@ class Program
             Console.WriteLine("Invalid choise");
         }
         Console.WriteLine();
-
+        */
     }
     
     /*
@@ -227,6 +228,7 @@ class Program
     }
     */
     
+    /*
     static double CalculateArea(double side)
     {
         return side * side;
@@ -235,7 +237,6 @@ class Program
     {
         return length * width;
     }
-    
-    
+    */
     
 }
