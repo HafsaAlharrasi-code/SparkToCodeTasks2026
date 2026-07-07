@@ -30,9 +30,25 @@ class Program
         Console.WriteLine();
         */
         
+        /*
         //4-Fixed Menu Display Function
         DisplayMenu();
         Console.WriteLine();
+        */
+        
+        //5-Even or Odd Function
+        Console.WriteLine("Enter an ineger: ");
+        int number = int.Parse(Console.ReadLine());
+        bool isEven = IsEven(number);
+
+        if (isEven)
+        {
+            Console.WriteLine("The number is even");
+        }
+        else
+        {
+            Console.WriteLine("The number is odd");
+        }
     }
     
     /*
@@ -59,6 +75,7 @@ class Program
     }
     */
     
+    /*
     static void DisplayMenu()
     {
         Console.WriteLine("Menu:");
@@ -66,7 +83,12 @@ class Program
         Console.WriteLine("2) Help");
         Console.WriteLine("3) Exit");
     }
-    
+    */
+
+    static bool IsEven(int number)
+    {
+        return number % 2 == 0;
+    }
     
     
 }
