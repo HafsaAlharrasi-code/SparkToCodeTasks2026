@@ -4,6 +4,8 @@
     <projectFile>Task1/Task1.csproj</projectFile>
     <projectFile>Task2/Task2.csproj</projectFile>
     <projectFile>Task3Solution/Task3Solution.csproj</projectFile>
+    <projectFile>Task4Solution/Task4Solution.csproj</projectFile>
+    <projectFile>Task5Solution/Task5Solution.csproj</projectFile>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
@@ -15,7 +17,9 @@
     <configurations />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d34ba5d8-763f-4d55-8595-4274d762cf04" name="Changes" comment="" />
+    <list default="true" id="d34ba5d8-763f-4d55-8595-4274d762cf04" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/SparkToCodeTasks2026.sln" beforeDir="false" afterPath="$PROJECT_DIR$/SparkToCodeTasks2026.sln" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,6 +52,8 @@
     <setting file="file://$PROJECT_DIR$/Task1/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Task2/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Task3Solution/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Task4Solution/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Task5Solution/Program.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="McpProjectServerCommands">
     <commands />
@@ -56,61 +62,61 @@
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="2.2585936881756762E-8" />
-      <entry key="MS500" value="0.029564301460174868" />
-      <entry key="S2" value="0.4146597729072209" />
-      <entry key="S5" value="0.7031965999565596" />
-      <entry key="S10" value="0.8385681844768567" />
-      <entry key="S30" value="0.944690256995489" />
-      <entry key="S60" value="1.126159473034443" />
-      <entry key="M2" value="2.8249356212648844" />
-      <entry key="M5" value="13.087566431565373" />
-      <entry key="M10" value="31.76555224707452" />
-      <entry key="M15" value="51.30868247776407" />
-      <entry key="M30" value="111.24432767877175" />
-      <entry key="H1" value="213.16861937744807" />
-      <entry key="H2" value="352.51015648187376" />
-      <entry key="H4" value="492.80125495484674" />
-      <entry key="D1" value="689.2020164407629" />
-      <entry key="W1" value="734.113059055615" />
+      <entry key="MS100" value="1.0980299895979682" />
+      <entry key="MS500" value="2.4969785617103932" />
+      <entry key="S2" value="4.033646039266318" />
+      <entry key="S5" value="4.586925472036674" />
+      <entry key="S10" value="4.9061493563254395" />
+      <entry key="S30" value="5.4301232540526305" />
+      <entry key="S60" value="5.786121740860037" />
+      <entry key="M2" value="7.397875668717985" />
+      <entry key="M5" value="17.288584179598843" />
+      <entry key="M10" value="35.78645367389223" />
+      <entry key="M15" value="55.25050266403013" />
+      <entry key="M30" value="115.09274225257185" />
+      <entry key="H1" value="217.0629991149837" />
+      <entry key="H2" value="356.5950151296819" />
+      <entry key="H4" value="497.16123004909514" />
+      <entry key="D1" value="694.0527630176547" />
+      <entry key="W1" value="739.0903458623332" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0" />
-      <entry key="S5" value="1.0" />
-      <entry key="S10" value="1.0" />
-      <entry key="S30" value="1.0" />
-      <entry key="S60" value="1.0000000002678202" />
-      <entry key="M2" value="1.0000425151346641" />
-      <entry key="M5" value="1.0616224311451767" />
-      <entry key="M10" value="1.7922313028326418" />
-      <entry key="M15" value="3.031697873624863" />
-      <entry key="M30" value="7.223400041125045" />
-      <entry key="H1" value="15.180074211744941" />
-      <entry key="H2" value="27.566347410663507" />
-      <entry key="H4" value="40.81331940859439" />
-      <entry key="D1" value="59.83982100683395" />
-      <entry key="W1" value="64.22839465765605" />
+      <entry key="MS100" value="5.571646706581873E-82" />
+      <entry key="MS500" value="5.61302160779378E-17" />
+      <entry key="S2" value="8.655639866207635E-5" />
+      <entry key="S5" value="0.023709351288337663" />
+      <entry key="S10" value="0.15397841176066746" />
+      <entry key="S30" value="0.5359857933236433" />
+      <entry key="S60" value="0.73211050642013" />
+      <entry key="M2" value="0.855670940900119" />
+      <entry key="M5" value="0.9974368615143467" />
+      <entry key="M10" value="1.7372076065611477" />
+      <entry key="M15" value="2.969324728447967" />
+      <entry key="M30" value="7.148707955312086" />
+      <entry key="H1" value="15.101387049917447" />
+      <entry key="H2" value="27.494808369801227" />
+      <entry key="H4" value="40.760326488565724" />
+      <entry key="D1" value="59.826864436752665" />
+      <entry key="W1" value="64.22640778929706" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="4.9233505811897366E-5" />
-      <entry key="MS500" value="0.1375473473613719" />
-      <entry key="S2" value="0.6210592704649758" />
-      <entry key="S5" value="0.9909089640163885" />
-      <entry key="S10" value="1.3189109567680408" />
-      <entry key="S30" value="1.714072704179578" />
-      <entry key="S60" value="2.0016923413496763" />
-      <entry key="M2" value="3.7586364436279553" />
-      <entry key="M5" value="14.11414027881461" />
-      <entry key="M10" value="33.529220755899125" />
-      <entry key="M15" value="54.31139425303506" />
-      <entry key="M30" value="118.43549433589439" />
-      <entry key="H1" value="228.31555866463128" />
-      <entry key="H2" value="380.0475523305354" />
-      <entry key="H4" value="533.5937545454045" />
-      <entry key="D1" value="749.0368828485779" />
-      <entry key="W1" value="798.3406974416761" />
+      <entry key="MS100" value="1.0757243876396096" />
+      <entry key="MS500" value="2.486173918448744" />
+      <entry key="S2" value="4.029028515646543" />
+      <entry key="S5" value="4.591614736249806" />
+      <entry key="S10" value="4.978991751136014" />
+      <entry key="S30" value="5.842115184817389" />
+      <entry key="S60" value="6.426913834838965" />
+      <entry key="M2" value="8.196684588382528" />
+      <entry key="M5" value="18.25305227953929" />
+      <entry key="M10" value="37.495955776880066" />
+      <entry key="M15" value="58.19142455919223" />
+      <entry key="M30" value="122.20954358205638" />
+      <entry key="H1" value="232.1314197252163" />
+      <entry key="H2" value="384.06094543489314" />
+      <entry key="H4" value="537.9007629342688" />
+      <entry key="D1" value="753.8746737917799" />
+      <entry key="W1" value="803.3159973839466" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -122,30 +128,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;.NET Project.Task1.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    ".NET Project.Task1.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "cidr.known.project.marker": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "Task5",
+    "junie.onboarding.icon.badge.shown": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected=".NET Project.Task1">
     <configuration name="Task1" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
@@ -273,6 +279,27 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="Task5Solution" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="ENV_FILE_PATHS" value="" />
+      <option name="REDIRECT_INPUT_PATH" value="" />
+      <option name="MIXED_MODE_DEBUG" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="AUTO_ATTACH_CHILDREN" value="0" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Task5Solution/Task5Solution.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -284,6 +311,7 @@
       <workItem from="1782916600162" duration="1053000" />
       <workItem from="1782917665273" duration="15671000" />
       <workItem from="1783276006979" duration="631000" />
+      <workItem from="1783354705481" duration="7329000" />
     </task>
     <task id="LOCAL-00001" summary="add project files">
       <option name="closed" value="true" />
@@ -413,7 +441,111 @@
       <option name="project" value="LOCAL" />
       <updated>1782930055708</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Start Task4">
+      <option name="closed" value="true" />
+      <created>1783354830663</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1783354830663</updated>
+    </task>
+    <task id="LOCAL-00018" summary="(Personalized Welcome Function) Implementation">
+      <option name="closed" value="true" />
+      <created>1783433153770</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1783433153770</updated>
+    </task>
+    <task id="LOCAL-00019" summary="correcting the first problem">
+      <option name="closed" value="true" />
+      <created>1783433375565</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1783433375565</updated>
+    </task>
+    <task id="LOCAL-00020" summary="(Square Number Function) Implementation">
+      <option name="closed" value="true" />
+      <created>1783433988828</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1783433988828</updated>
+    </task>
+    <task id="LOCAL-00021" summary="(Celsius to Fahrenheit Function) Implementation">
+      <option name="closed" value="true" />
+      <created>1783434368800</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1783434368800</updated>
+    </task>
+    <task id="LOCAL-00022" summary="(Fixed Menu Display Function) Implementation">
+      <option name="closed" value="true" />
+      <created>1783434567512</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1783434567512</updated>
+    </task>
+    <task id="LOCAL-00023" summary="(Even or Odd Function) Implementation">
+      <option name="closed" value="true" />
+      <created>1783435294492</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1783435294492</updated>
+    </task>
+    <task id="LOCAL-00024" summary="(Rectangle Area &amp; Perimeter Functions) Implementation">
+      <option name="closed" value="true" />
+      <created>1783435700923</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1783435700923</updated>
+    </task>
+    <task id="LOCAL-00025" summary="(Grade Letter Function) Implementation">
+      <option name="closed" value="true" />
+      <created>1783436264305</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1783436264305</updated>
+    </task>
+    <task id="LOCAL-00026" summary="(Countdown Function) Implementation">
+      <option name="closed" value="true" />
+      <created>1783436513373</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1783436513373</updated>
+    </task>
+    <task id="LOCAL-00027" summary="(Overloaded Multiply Function) Implementation">
+      <option name="closed" value="true" />
+      <created>1783437085864</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1783437085864</updated>
+    </task>
+    <task id="LOCAL-00028" summary="(Overloaded Area Calculator) Implementation">
+      <option name="closed" value="true" />
+      <created>1783437757364</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1783437757364</updated>
+    </task>
+    <task id="LOCAL-00029" summary="easy,med,hard parts DONE.">
+      <option name="closed" value="true" />
+      <created>1783437825880</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1783437825880</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
