@@ -63,6 +63,7 @@ class Program
         Console.WriteLine("Served the customer: "+servedCustomer);
         */
         
+        /*
         //5-Array Grade Range
         int[] grades = new int[5];
         for (int i = 0; i < 5; i++)
@@ -84,6 +85,38 @@ class Program
         Console.WriteLine("The lowest grade is: " + lowestGrade);
         Console.WriteLine("The highest grade is: " + highestGrade);
         Console.WriteLine("The average grade is: " + averageGrade);
-
+        */
+        
+        //6-Filtered Shopping List
+        List<string> shoppingList = new List<string>();
+        
+        while (true)
+        {
+            Console.WriteLine("Enter an item or done to stop: ");
+            string input = Console.ReadLine();
+            if (input.ToLower() == "done")
+            {
+                break;
+            }
+            else
+            {
+                shoppingList.Add(input);
+            }
+        }
+        Console.WriteLine("Your shopping list is: " );
+        foreach (string shoppingItem in shoppingList)
+        {
+            Console.WriteLine(shoppingItem);
+        }
+        
+        Console.WriteLine("Enter an item to remove: ");
+        string removeItem = Console.ReadLine();
+        shoppingList.Remove(removeItem);
+        Console.WriteLine("Your shopping list after removal is: " );
+        foreach (string shoppingItem in shoppingList)
+        {
+            Console.WriteLine(shoppingItem);
+        }
+        
     }
 }
