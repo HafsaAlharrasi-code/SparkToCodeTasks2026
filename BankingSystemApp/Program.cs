@@ -47,11 +47,11 @@ namespace BankingSystemApp {
                     TransferAmount();
                     break;
                 case 6:
-                    // TODO: call your first custom service function here
+                    //call first custom service function here
                     DeleteAccount();
                     break;
                 case 7:
-                    // TODO: call your second custom service function here
+                    //call second custom service function here
                     ListAllAccounts();
                     break;
                 case 8:
@@ -199,7 +199,7 @@ namespace BankingSystemApp {
             Console.WriteLine("Sender account is: " + accountNumbers[receiverIndex]+" New balance:"+ balances[receiverIndex]);
 
         }
-        // your own custom services (option 6 and option 7)
+        //custom services (option 6 and option 7)
         
         static void DeleteAccount()
         {
