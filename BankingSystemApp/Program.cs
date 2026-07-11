@@ -27,46 +27,48 @@ namespace BankingSystemApp {
         try
         {
             choice = int.Parse(Console.ReadLine());
+
+
+            switch (choice)
+            {
+                case 1:
+                    AddAccount();
+                    break;
+                case 2:
+                    DepositMoney();
+                    break;
+                case 3:
+                    WithdrawMoney();
+                    break;
+                case 4:
+                    ShowBalance();
+                    break;
+                case 5:
+                    TransferAmount();
+                    break;
+                case 6:
+                    // TODO: call your first custom service function here
+                    DeleteAccount();
+                    break;
+                case 7:
+                    // TODO: call your second custom service function here
+                    ListAllAccounts();
+                    break;
+                case 8:
+                    exitApp = true;
+                    Console.WriteLine("Thank you for banking with Spark Bank. Goodbye!");
+                    break;
+                default:
+                    Console.WriteLine("Invalid option, please choose between 1 and 8.");
+                    break;
+            }
         }
         catch (Exception)
         {
-            Console.WriteLine("Invalid input. Please enter a number from 1 to 8.");
+            Console.WriteLine("Invalid input.");
             continue; // skip the rest of this loop pass, show the menu again
-        } 
-
-        switch (choice){
-        case 1:
-        AddAccount();
-        break;
-        case 2:
-        DepositMoney();
-        break;
-        case 3:
-        WithdrawMoney();
-        break;
-        case 4:
-        ShowBalance();
-        break;
-        case 5:
-        TransferAmount();
-        break;
-        case 6:
-        // TODO: call your first custom service function here
-        DeleteAccount();
-        break;
-        case 7:
-        // TODO: call your second custom service function here
-        ListAllAccounts();
-        break;
-        case 8:
-        exitApp = true;
-        Console.WriteLine("Thank you for banking with Spark Bank. Goodbye!");
-        break;
-        default:
-        Console.WriteLine("Invalid option, please choose between 1 and 8.");
-        break;
-        } 
-    }
+        }
+        }
 }
         // ===================== SERVICE FUNCTIONS =====================
         // Each function owns ONE service end-to-end: it asks the user for
