@@ -77,7 +77,7 @@ namespace BankingSystemApp {
             string customerName = Console.ReadLine();
             Console.WriteLine("Enter account number: ");
             string accountNumber = Console.ReadLine();
-            if (accountNumber.Contains(accountNumber))
+            if (accountNumbers.Contains(accountNumber))
             {
                 Console.WriteLine("Error: Customer already exists.");
                 return;
@@ -94,7 +94,28 @@ namespace BankingSystemApp {
             balances.Add(initialAmount);
             Console.WriteLine("Account successfully created ");
         }
-        static void DepositMoney() {}
+
+        static void DepositMoney()
+        {
+            Console.WriteLine("Enter account number: ");
+            string accountNumber = Console.ReadLine();
+            int index = accountNumbers.IndexOf(accountNumber);
+            if (index == -1)
+            {
+                Console.WriteLine("Error: Account number not found");
+                return;
+            }
+            Console.WriteLine("Enter deposit amount: ");
+            double depositAmount = double.Parse(Console.ReadLine());
+            if (depositAmount < 0)
+            {
+                Console.WriteLine("Error: Deposit amount cannot be negative.");
+                return;
+            }
+            balances[index] += depositAmount;
+            Console.WriteLine("Deposit successfully.");
+            Console.WriteLine("New account balance is: " + balances[index]);
+        }
         static void WithdrawMoney(){}
         static void ShowBalance(){}
         static void TransferAmount(){}
