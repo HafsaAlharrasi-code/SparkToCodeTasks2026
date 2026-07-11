@@ -116,7 +116,33 @@ namespace BankingSystemApp {
             Console.WriteLine("Deposit successfully.");
             Console.WriteLine("New account balance is: " + balances[index]);
         }
-        static void WithdrawMoney(){}
+
+        static void WithdrawMoney()
+        {
+            Console.WriteLine("Enter account number: ");
+            string accountNumber = Console.ReadLine();
+            int index = accountNumbers.IndexOf(accountNumber);
+            if (index == -1)
+            {
+                Console.WriteLine("Error: Account number not found");
+                return;
+            }
+            Console.WriteLine("Enter withdraw amount: ");
+            double withdrawAmount = double.Parse(Console.ReadLine());
+            if ( withdrawAmount < 0)
+            {
+                Console.WriteLine("Error: withdraw amount cannot be negative");
+                return;
+            }
+
+            if (withdrawAmount > balances[index])
+            {
+                Console.WriteLine("Error: Insufficient balance");
+            }
+            balances[index] -= withdrawAmount;
+            Console.WriteLine("Withdraw successfully.");
+            Console.WriteLine("New account balance is: " + balances[index]);
+        }
         static void ShowBalance(){}
         static void TransferAmount(){}
         // your own custom services (option 6 and option 7)
