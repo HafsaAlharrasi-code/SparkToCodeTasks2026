@@ -138,12 +138,27 @@ namespace BankingSystemApp {
             if (withdrawAmount > balances[index])
             {
                 Console.WriteLine("Error: Insufficient balance");
+                return;
             }
             balances[index] -= withdrawAmount;
             Console.WriteLine("Withdraw successfully.");
             Console.WriteLine("New account balance is: " + balances[index]);
         }
-        static void ShowBalance(){}
+
+        static void ShowBalance()
+        {
+            Console.WriteLine("Enter account number: ");
+            string accountNumber = Console.ReadLine();
+            int index = accountNumbers.IndexOf(accountNumber);
+            if (index == -1)
+            {
+                Console.WriteLine("Error: Account number not found");
+                return;
+            }
+            Console.WriteLine("Customer name: " + customerNames[index]);
+            Console.WriteLine("Customer account number: " + accountNumbers[index]);
+            Console.WriteLine("Balance: " + balances[index]);
+        }
         static void TransferAmount(){}
         // your own custom services (option 6 and option 7)
     }
