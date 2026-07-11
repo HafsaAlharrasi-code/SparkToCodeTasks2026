@@ -52,6 +52,7 @@ namespace BankingSystemApp {
         break;
         case 6:
         // TODO: call your first custom service function here
+        DeleteAccount();
         break;
         case 7:
         // TODO: call your second custom service function here
@@ -196,5 +197,33 @@ namespace BankingSystemApp {
 
         }
         // your own custom services (option 6 and option 7)
+        
+        static void DeleteAccount()
+        {
+            if (accountNumbers.Count == 0)
+            {
+                Console.WriteLine("No accounts in the system");
+                return;
+            }
+            
+            Console.WriteLine("Enter account number: ");
+            string accountNumber = Console.ReadLine();
+            int index = accountNumbers.IndexOf(accountNumber);
+            if (index == -1)
+            {
+                Console.WriteLine("Error: Account number not found");
+                return;
+            }
+            Console.WriteLine("Are you sure to delete account number " +accountNumbers[index] +"(yes/no): ");
+            string confirm = Console.ReadLine().ToLower();
+            if (confirm == "yes")
+            {
+                customerNames.RemoveAt(index);
+                accountNumbers.RemoveAt(index);
+                balances.RemoveAt(index);
+                Console.WriteLine("Account successfully deleted.");
+            }
+            
+        }
     }
 }
