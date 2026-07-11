@@ -19,8 +19,8 @@ namespace BankingSystemApp {
         Console.WriteLine("3. Withdraw Money");
         Console.WriteLine("4. Show Balance");
         Console.WriteLine("5. Transfer Amount");
-        Console.WriteLine("6. <your 1st custom service - choose a name>");
-        Console.WriteLine("7. <your 2nd custom service - choose a name>");
+        Console.WriteLine("6. Delete Account");
+        Console.WriteLine("7. List All Accounts");
         Console.WriteLine("8. Exit");
         Console.Write("Choose an option: ");
         int choice;
@@ -56,6 +56,7 @@ namespace BankingSystemApp {
         break;
         case 7:
         // TODO: call your second custom service function here
+        ListAllAccounts();
         break;
         case 8:
         exitApp = true;
@@ -224,6 +225,22 @@ namespace BankingSystemApp {
                 Console.WriteLine("Account successfully deleted.");
             }
             
+        }
+
+        static void ListAllAccounts()
+        {
+            if (accountNumbers.Count == 0)
+            {
+                Console.WriteLine("No accounts in the system");
+                return;
+            }
+
+            for (int i = 0; i < accountNumbers.Count; i++)
+            {
+                Console.WriteLine("customer name: " + customerNames[i]);
+                Console.WriteLine("customer account number: " + accountNumbers[i]);
+                Console.WriteLine("Balance: " + balances[i]);
+            }
         }
     }
 }
