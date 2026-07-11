@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task4Solution", "Task4Solut
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task5Solution", "Task5Solution\Task5Solution.csproj", "{421AEA62-C183-47ED-935F-C027E047E054}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankingSystemApp", "BankingSystemApp\BankingSystemApp.csproj", "{D536E12D-9FCE-4503-8513-1D0937B9B9EB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{421AEA62-C183-47ED-935F-C027E047E054}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{421AEA62-C183-47ED-935F-C027E047E054}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{421AEA62-C183-47ED-935F-C027E047E054}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D536E12D-9FCE-4503-8513-1D0937B9B9EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D536E12D-9FCE-4503-8513-1D0937B9B9EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D536E12D-9FCE-4503-8513-1D0937B9B9EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D536E12D-9FCE-4503-8513-1D0937B9B9EB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
