@@ -159,7 +159,42 @@ namespace BankingSystemApp {
             Console.WriteLine("Customer account number: " + accountNumbers[index]);
             Console.WriteLine("Balance: " + balances[index]);
         }
-        static void TransferAmount(){}
+
+        static void TransferAmount()
+        {
+            Console.WriteLine("Enter sender's account number: ");
+            string senderAccountNumber = Console.ReadLine();
+            int senderIndex = accountNumbers.IndexOf(senderAccountNumber);
+            
+            Console.WriteLine("Enter receiver's account number: ");
+            string receiverAccountNumber = Console.ReadLine();
+            int receiverIndex = accountNumbers.IndexOf(receiverAccountNumber);
+
+            if (receiverIndex == -1 || senderIndex == -1)
+            {
+                Console.WriteLine("Error: Account number not found");
+                return;
+            }
+            Console.WriteLine("Enter transfer amount: " );
+            double transferAmount = double.Parse(Console.ReadLine());
+            if (transferAmount < 0)
+            {
+                Console.WriteLine("Error: Transfer amount cannot be negative");
+                return;
+            }
+
+            if (transferAmount > balances[senderIndex])
+            {
+                Console.WriteLine("Error: Insufficient balance");
+                return;
+            }
+            balances[senderIndex] -= transferAmount;
+            balances[receiverIndex] += transferAmount;
+            Console.WriteLine("Transfer successfully.");
+            Console.WriteLine("Sender account is: " + accountNumbers[senderIndex]+" New balance:"+ balances[senderIndex]);
+            Console.WriteLine("Sender account is: " + accountNumbers[receiverIndex]+" New balance:"+ balances[receiverIndex]);
+
+        }
         // your own custom services (option 6 and option 7)
     }
 }
