@@ -320,6 +320,27 @@ class Program
             Console.WriteLine("Invalid input. Please enter a valid number.");
         }
     }
+    
+    //Case11- Student Report Card
+    static void StudentReportCard()
+    {
+        Student student = SelectStudent();
+        if (student != null)
+        {
+            Console.WriteLine("STUDENT REPORT CARD");
+            Console.WriteLine("Name: " + student.Name);
+            Console.WriteLine("Address: " + student.Address);
+            Console.WriteLine("Grade: " + student.Grade);
+            if (student.Grade >= 60)
+            {
+                Console.WriteLine("Status: PASS ");
+            }
+            else
+            {
+                Console.WriteLine("Status: FAIL ");
+            }
+        }
+    }
 }
 
 public class BankAccount
