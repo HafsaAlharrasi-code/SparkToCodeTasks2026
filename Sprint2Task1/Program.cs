@@ -438,6 +438,28 @@ class Program
             }
         }
     }
+    
+    //Case16- Quick Account Opening [Parameterized Constructor]
+    static void QuickAccountOpening()
+    {
+        Console.WriteLine("Enter account number: ");
+        int accountNumber = int.Parse(Console.ReadLine());
+        Console.WriteLine("Enter account holder name: ");
+        string holderName = Console.ReadLine();
+        Console.WriteLine("Enter starting balance: ");
+        double balance = double.Parse(Console.ReadLine());
+        if (balance < 0)
+        {
+            Console.WriteLine("Invalid balance. Please enter a positive number.");
+            return;
+        }
+        
+        BankAccount newAccount = new BankAccount(accountNumber, holderName, balance);
+        Console.WriteLine("Account created successfully");
+        Console.WriteLine("Account Number: " + newAccount.AccountNumber);
+        Console.WriteLine("Holder Name: " + newAccount.HolderName);
+        Console.WriteLine("Balance: " + newAccount.Balance);
+    }
 }
 
 public class BankAccount
@@ -470,6 +492,14 @@ public class BankAccount
         Console.WriteLine("Balance: " + Balance);
     }
     private void SendEmail(){}
+    
+    //for case 16
+    public BankAccount(int accountNumber, string holderName, double balance)
+    {
+        AccountNumber = accountNumber;
+        HolderName = holderName;
+        Balance = balance;
+    }
 }
 
 public class Student
