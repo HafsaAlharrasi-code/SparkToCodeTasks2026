@@ -210,6 +210,27 @@ class Program
             Console.WriteLine("Student registered successfully.");
         }
     }
+    
+    //Case7- Compare Two Account Balances
+    static void CompareAccountBalances()
+    {
+        Console.WriteLine("Comparing the 2 accounts balances: ");
+        Console.WriteLine(account1.HolderName + ": " + account1.Balance);
+        Console.WriteLine(account2.HolderName + ": " + account2.Balance);
+
+        if (account1.Balance > account2.Balance)
+        {
+            Console.WriteLine(account1.HolderName + " has more money.");
+        }
+        else if (account2.Balance > account1.Balance)
+        {
+            Console.WriteLine(account2.HolderName + " has more money.");
+        }
+        else
+        {
+            Console.WriteLine("Both accounts have equal balances.");
+        }
+    }
 
 }
 
