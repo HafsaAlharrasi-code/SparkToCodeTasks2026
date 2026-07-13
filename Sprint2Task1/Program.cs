@@ -124,7 +124,14 @@ class Program
         }
     }
     
-    
+    static void ViewAccountDetails()
+    {
+        BankAccount acc = SelectAccount();
+        if (acc != null)
+        {
+            acc.CheckBalance();
+        }
+    }
     
 }
 
