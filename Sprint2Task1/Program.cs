@@ -390,6 +390,32 @@ class Program
             Console.WriteLine("Invalid quantity. Please enter a positive number.");
         }
     }
+    
+    //Case14- Scholarship Eligibility Check
+    static void ScholarshipEligibilityCheck()
+    {
+        Student student = SelectStudent();
+        if (student == null) return;
+        BankAccount acc = SelectAccount();
+        if (acc == null) return;
+
+        if ((student.Grade>=80) && (acc.Balance>=100))
+        {
+            Console.WriteLine("Eligible:");
+        }
+        else
+        {
+            Console.WriteLine("Not Eligible:");
+            if (student.Grade < 80)
+            {
+                Console.WriteLine("Grade must be 80 or above");
+            }
+            if (acc.Balance <100)
+            {
+                Console.WriteLine("Account balance must be 100 or above ");
+            }
+        }
+    }
 }
 
 public class BankAccount
