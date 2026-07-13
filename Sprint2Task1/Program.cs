@@ -124,6 +124,7 @@ class Program
         }
     }
     
+    //Case1- View Account Details
     static void ViewAccountDetails()
     {
         BankAccount acc = SelectAccount();
@@ -132,6 +133,20 @@ class Program
             acc.CheckBalance();
         }
     }
+    
+    //Case2- Update Student Address
+    static void UpdateStudentAddress()
+    {
+        Student student = SelectStudent();
+        if (student != null)
+        {
+            Console.Write("Enter new address: ");
+            string newAddress = Console.ReadLine();
+            student.Address = newAddress;
+            Console.WriteLine("Address updated successfully. New address: " + student.Address);
+        }
+    }
+    
     
 }
 
