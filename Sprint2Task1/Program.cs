@@ -197,6 +197,19 @@ class Program
             Console.WriteLine("Total Inventory Value: " + value);
         }
     }
+    
+    //Case6- Register a Student
+    static void RegisterStudent()
+    {
+        Student student = SelectStudent();
+        if (student != null)
+        {
+            Console.Write("Enter an email: ");
+            string email = Console.ReadLine();
+            student.Register(email);
+            Console.WriteLine("Student registered successfully.");
+        }
+    }
 
 }
 
