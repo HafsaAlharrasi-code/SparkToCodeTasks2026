@@ -8,6 +8,8 @@ class Program
     static Student student2 = new Student();
     static Product product1 = new Product();
     static Product product2 = new Product();
+    
+    
     static void Main(string[] args)
     {
         account1.AccountNumber = 1163;
@@ -72,6 +74,57 @@ class Program
         }
 
     }
+
+    static BankAccount SelectAccount()
+    {
+        Console.WriteLine("Select an account:");
+        Console.WriteLine("1)Account: 1163, karim");
+        Console.WriteLine("2)Account: 15203, Ali");
+        Console.Write("Enter your choice (1 or 2): ");
+        int choice = int.Parse(Console.ReadLine());
+        if (choice == 1)
+        {
+            return account1;
+        }
+        else
+        {
+            return account2;
+        }
+    }
+    static Student SelectStudent()
+    {
+        Console.WriteLine("Select a student:");
+        Console.WriteLine("1)Student: Ali");
+        Console.WriteLine("2)Student: Ahmed");
+        Console.Write("Enter your choice (1 or 2): ");
+        int choice = int.Parse(Console.ReadLine());
+        if (choice == 1)
+        {
+            return student1;
+        }
+        else
+        {
+            return student2;
+        }
+    }
+    static Product SelectProduct()
+    {
+        Console.WriteLine("Select a student:");
+        Console.WriteLine("1)ProductName: Wireless Mouse");
+        Console.WriteLine("2)ProductName: Mechanical Keyboard");
+        Console.Write("Enter your choice (1 or 2): ");
+        int choice = int.Parse(Console.ReadLine());
+        if (choice == 1)
+        {
+            return product1;
+        }
+        else
+        {
+            return product2;
+        }
+    }
+    
+    
     
 }
 
