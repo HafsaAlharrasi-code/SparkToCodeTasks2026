@@ -296,6 +296,30 @@ class Program
         }
         
     }
+    
+    //case10- Update Student Grade (Validated)
+    static void UpdateStudentGrade()
+    {
+        Student student = SelectStudent();
+        if (student != null)
+        {
+            Console.WriteLine("Enter new grade (0-100): ");
+            int newGrade = int.Parse(Console.ReadLine());
+            if (newGrade >= 0 && newGrade <= 100)
+            {
+                student.Grade = newGrade;
+                Console.WriteLine("Grade updated successfully. New grade: " + student.Grade);
+            }
+            else
+            {
+                Console.WriteLine("Invalid grade. Must be between 0 and 100.");
+            }
+        }
+        else
+        {
+            Console.WriteLine("Invalid input. Please enter a valid number.");
+        }
+    }
 }
 
 public class BankAccount
