@@ -488,6 +488,23 @@ class Program
             
         }
     }
+    
+    //Case19- Set Student Security PIN [Write-Only Property]
+    static void SetStudentSecurityPin()
+    {
+        Student student = SelectStudent();
+        if (student == null)
+        {
+            Console.WriteLine("Enter a 4-digit PIN : ");
+            int pin = int.Parse(Console.ReadLine());
+            student.SecurityPin = pin;
+            Console.WriteLine("Security PIN set successfully.");
+        }
+        else
+        {
+            Console.WriteLine("Invalid PIN. Must be a 4-digit number");
+        }
+    }
 }
 
 public class BankAccount
@@ -520,8 +537,7 @@ public class BankAccount
         Console.WriteLine("Balance: " + Balance);
     }
     private void SendEmail(){}
-    
-    public bool IsOverdrawn
+    public BankAccount() { }    public bool IsOverdrawn
     {
         get { return Balance < 0; }
     }
@@ -559,6 +575,23 @@ public class Student
     {
         totalStudents++;
     }
+    
+    private int securityPin;
+    public int SecurityPin
+    {
+        set
+        {
+            if (value >= 1000 && value <= 9999)
+            {
+                securityPin = value;
+            }
+            else
+            {
+                Console.WriteLine("Invalid PIN. Must be a 4-digit number");
+            }
+        }
+    }
+    
 }
 
 public class Product
