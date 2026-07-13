@@ -341,6 +341,28 @@ class Program
             }
         }
     }
+    
+    //Case12- Account Health Status
+    static void AccountHealthStatus()
+    {
+        BankAccount acc = SelectAccount();
+        if (acc != null)
+        {
+            Console.WriteLine("Balance: " + acc.Balance);
+            if (acc.Balance < 50)
+            {
+                Console.WriteLine("Status: Low Balance");
+            }
+            else if (acc.Balance >= 50 && acc.Balance <= 1000)
+            {
+                Console.WriteLine("Status: Healthy");
+            }
+            else
+            {
+                Console.WriteLine("Status: Premium");
+            }
+        }
+    }
 }
 
 public class BankAccount
