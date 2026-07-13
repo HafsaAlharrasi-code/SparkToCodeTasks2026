@@ -166,6 +166,26 @@ class Program
             }
         }
     }
+    
+    //Case4- Make a Withdrawal
+    static void MakeWithdrawal()
+    {
+        BankAccount acc = SelectAccount();
+        if (acc != null)
+        {
+            Console.Write("Enter amount to withdraw: ");
+            double amount = double.Parse(Console.ReadLine());
+            if (amount > 0)
+            {
+                acc.Withdraw(amount);
+                Console.WriteLine("Withdrawal successful. New balance: " + acc.Balance);
+            }
+            else
+            {
+                Console.WriteLine("Invalid amount. Please enter a positive number.");
+            }
+        }
+    }
 
 
 }
