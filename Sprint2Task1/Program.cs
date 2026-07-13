@@ -460,6 +460,14 @@ class Program
         Console.WriteLine("Holder Name: " + newAccount.HolderName);
         Console.WriteLine("Balance: " + newAccount.Balance);
     }
+    
+    //Case17- Total Students Counter [Static Fields & Methods]
+    static void TotalStudentsCounter()
+    {
+        int total = Student.GetTotalStudents();
+        Console.WriteLine("Total number of students: " + total);
+        
+    }
 }
 
 public class BankAccount
@@ -516,6 +524,16 @@ public class Student
         SendEmail();
     }
     private void SendEmail(){}
+    
+    private static int totalStudents = 0;
+    public static int GetTotalStudents()
+    {
+        return totalStudents;
+    }
+    public Student()
+    {
+        totalStudents++;
+    }
 }
 
 public class Product
