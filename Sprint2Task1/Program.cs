@@ -363,6 +363,33 @@ class Program
             }
         }
     }
+    
+    //Case13- Bulk Sale With Revenue Calculation
+    static void BulkSaleWithRevenue()
+    {
+        Product product = SelectProduct();
+        if (product != null)
+        {
+            Console.Write("Enter quantity to sell: ");
+            int quantity = int.Parse(Console.ReadLine());
+            if (product.StockQuantity >= quantity)
+            {
+                product.Sell(quantity);
+                double revenue = quantity * product.Price;
+                Console.WriteLine("Sale completed successfully");
+                Console.WriteLine("Total revenue from sale: " + revenue);
+            }
+            else
+            {
+                int needed = quantity - product.StockQuantity;
+                Console.WriteLine("Sale failed. Insufficient balance, " + needed + "more stock needed");
+            }
+        }
+        else
+        {
+            Console.WriteLine("Invalid quantity. Please enter a positive number.");
+        }
+    }
 }
 
 public class BankAccount
