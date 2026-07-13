@@ -263,6 +263,39 @@ class Program
             }
         }
     }
+    
+    //Case9- Transfer Between Accounts
+    static void TransferBetweenAccounts()
+    {
+        Console.WriteLine("Select source account:");
+        BankAccount source = SelectAccount();
+        if (source == null) return;
+        
+        Console.WriteLine("Select destination account:");
+        BankAccount destination = SelectAccount();
+        if (destination == null) return;
+        
+        Console.Write("Enter amount to transfer: ");
+        double amount = double.Parse(Console.ReadLine());
+        if (amount > 0)
+        {
+            if (source.Balance >= amount)
+            {
+                source.Withdraw(amount);
+                destination.Deposit(amount);
+                Console.WriteLine("Transfer successful");
+            }
+            else
+            {
+                Console.WriteLine("Transfer failed. Insufficient balance");
+            }
+        }
+        else
+        {
+            Console.WriteLine("Invalid amount. Please enter a positive number.");
+        }
+        
+    }
 }
 
 public class BankAccount
