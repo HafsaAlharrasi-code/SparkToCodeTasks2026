@@ -187,6 +187,16 @@ class Program
         }
     }
 
+    //Case5- View Product Details
+    static void ViewProductDetails()
+    {
+        Product product = SelectProduct();
+        if (product != null)
+        {
+            double value = product.GetInventoryValue();
+            Console.WriteLine("Total Inventory Value: " + value);
+        }
+    }
 
 }
 
