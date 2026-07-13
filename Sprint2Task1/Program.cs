@@ -416,6 +416,28 @@ class Program
             }
         }
     }
+    
+    //Case15- Full Balance Top-Up Flow
+    static void FullBalanceTopUpFlow()
+    {
+        BankAccount acc = SelectAccount();
+        if (acc == null)
+        {
+            double beforeBalance = acc.Balance;
+            if (beforeBalance < 50)
+            {
+                double topUpAmount = 100 - beforeBalance;
+                acc.Deposit(topUpAmount);
+                Console.WriteLine("Top-up Done, Added: " + topUpAmount);
+                Console.WriteLine("Balance before: " + beforeBalance);
+                Console.WriteLine("Balance after: " + acc.Balance);
+            }
+            else
+            {
+                Console.WriteLine("No top-up needed. Balance is 50 or above.");
+            }
+        }
+    }
 }
 
 public class BankAccount
