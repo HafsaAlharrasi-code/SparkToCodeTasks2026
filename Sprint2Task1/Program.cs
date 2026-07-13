@@ -468,6 +468,26 @@ class Program
         Console.WriteLine("Total number of students: " + total);
         
     }
+    
+    //Case 18 - Overdrawn Account Check [Read-Only Property]
+    static void OverdrawnAccountCheck()
+    {
+        BankAccount acc = SelectAccount();
+        if (acc == null)
+        {
+            Console.WriteLine("Account: " + acc.HolderName);
+            Console.WriteLine("Balance: " + acc.Balance);
+            if (acc.IsOverdrawn)
+            {
+                Console.WriteLine("The account is Overdrawn");
+            }
+            else
+            {
+                Console.WriteLine("The account is NOT overdrawn:");
+            }
+            
+        }
+    }
 }
 
 public class BankAccount
@@ -500,6 +520,11 @@ public class BankAccount
         Console.WriteLine("Balance: " + Balance);
     }
     private void SendEmail(){}
+    
+    public bool IsOverdrawn
+    {
+        get { return Balance < 0; }
+    }
     
     //for case 16
     public BankAccount(int accountNumber, string holderName, double balance)
