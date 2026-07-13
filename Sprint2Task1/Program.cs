@@ -147,7 +147,27 @@ class Program
         }
     }
     
-    
+    //Case3- Make a Deposit
+    static void MakeDeposit()
+    {
+        BankAccount acc = SelectAccount();
+        if (acc != null)
+        {
+            Console.Write("Enter amount to deposit: ");
+            double amount = double.Parse(Console.ReadLine());
+            if (amount > 0)
+            {
+                acc.Deposit(amount);
+                Console.WriteLine("Deposit successful. " + acc.HolderName + "'s new balance is: " + acc.Balance);
+            }
+            else
+            {
+                Console.WriteLine("Invalid amount. Please enter a positive number.");
+            }
+        }
+    }
+
+
 }
 
 public class BankAccount
